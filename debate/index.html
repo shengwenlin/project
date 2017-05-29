@@ -135,31 +135,7 @@
 	<!-- /container -->
 	<script src="js/classie.js"></script>
     <script src="js/cbpSplitLayout.js"></script>
-    <script>
-            var socket = io.connect( 'http://127.0.0.1:4500' );
-
-            socket.on( 'connect', function() {
-                console.log('connected to web socket');
-            } );
-
-            socket.on( 'buttonPressed', function ( buttonNumber ) {
-                console.log('button pressed: ' + buttonNumber)
-                // your code here
-                if(buttonNumber == 1) {
-                    window.location.href = "../what/index.html"
-                }
-                else if(buttonNumber == 2) {
-                    window.location.href = "../debate/index.html"
-                }
-                 else if(buttonNumber == 3) {
-                    window.location.href = "../gallery/index.html"
-                 }
-                
-
-            } );
-
-       
-        </script>
+   
 </body>
 
 </html>
