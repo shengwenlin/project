@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Could photos save smokers' lives</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+	</head>
+	<body>
+        
+        <div id="page">
+         <div id="image">
+             <img src="image/flash.gif">
+            </div>
+        <span id="title">
+            COULD PHOTOS<br>SAVE<p1> SMOKERS'</p1><br>LIVES?
+            </span>
+        <section class="main">
+                
+                    <aside>
+                        <div class="WHAT">
+                     <h1><a href="../what/index.html">WHAT</a></h1>
+			         <p>What is graphic warning label?</p>
+                        </div>
+                    </aside>
+                   
+                    <aside>
+                        <div class="Debate">
+                          <h1><a href="../debate/index.html">DEBATE</a></h1>
+			              <p>Does it really work?</p>
+                        </div>
+                    </aside>
+            
+                     <aside>
+                        <div class="Gallery">
+                          <h1><a href="../gallery/index.html">GALLERY</a></h1>
+			              <p>Graphic warnings in the world.</p>
+                        </div>
+                    </aside>
+          </section>  
+            
+        <footer>
+            
+            
+            <img src="image/press.gif">
+                
+        </footer>    
+        
+        </div>
+
+
+		
+<script>
+            var socket = io.connect( 'http://127.0.0.1:4500' );
+
+            socket.on( 'connect', function() {
+                console.log('connected to web socket');
+            } );
+
+            socket.on( 'buttonPressed', function ( buttonNumber ) {
+                console.log('button pressed: ' + buttonNumber)
+                // your code here
+                if(buttonNumber == 1) {
+                    window.location.href = "../what/index.html"
+                }
+                else if(buttonNumber == 2) {
+                    window.location.href = "../debate/index.html"
+                }
+                 else if(buttonNumber == 3) {
+                    window.location.href = "../gallery/index.html"
+                 }
+            } );
+        </script>
+
+	</body>
+</html>

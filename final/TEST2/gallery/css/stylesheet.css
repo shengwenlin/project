@@ -1,0 +1,202 @@
+.columns {
+	height: 350px;
+}
+
+.columns img {
+	object-fit: none;
+	width: 100%;
+	height: 100%;
+}
+
+.columns .hov {
+	padding-bottom: 50px;
+	margin-top: -350px;
+	opacity: 0;
+	transition: 0.5s;
+    
+
+
+}
+.note {
+    color: #c2c2c2;
+    font-family: 'Open Sans', sans-serif;
+    text-align:left;
+    font-size: 0.8em;
+    line-height: 1.6;
+    float:left;
+}
+
+.columns .hov:hover {
+	opacity: 1;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+
+header {
+	color: #fff;
+	text-align: right;
+	height: 200px;
+	padding-top: 50px;
+}
+
+/*
+aside {
+	width: 20%;
+	float: right;
+	text-align: right;
+}
+*/
+
+.columns.center img {
+	object-position: center;
+}
+
+.columns.centertop img {
+	object-position: center top;
+}
+
+.columns.centerleft img {
+	object-position: center left;
+}
+
+.columns.centerright img {
+	object-position: center right;
+}
+
+.columns.righttop img {
+	object-position: top right;
+}
+
+.columns.left img {
+	object-position: left top;
+}
+
+.columns.right img {
+	object-position: right bottom;
+}
+
+.columns.bottom img {
+	object-position: bottom;
+}
+
+.columns.leftbottom img {
+	object-position: left bottom;
+}
+
+.columns .title-india{
+	text-indent:16%;
+	position:relative;
+	top:16%;
+}
+
+.columns .title-Thiland{
+	text-indent:34%;
+	position:relative;
+	top:12%;
+}
+
+.columns .title-SriLanka{
+	
+	position:relative;
+	top:11%;
+}
+
+.columns .title-Australia{
+	
+	position:relative;
+	top:10%;
+}
+
+.columns .title-Uruguay{
+	text-indent:30%;
+	position:relative;
+	top:21%;
+}
+
+.columns .title-Brunei{
+	
+	position:relative;
+	top:26%;
+}
+
+.columns .title-Canada{
+	
+	position:relative;
+	top:30%;
+}
+
+.columns .title-chad{
+	text-indent: 47%;
+	position:relative;
+	top:30%;
+}
+
+.columns .title-EU{
+	
+	position:relative;
+	top:2%;
+}
+
+.columns .title-Turkey{
+	text-indent: 11%;
+	position:relative;
+	top:32%;
+}
+
+.columns .title-Mauritius{
+/*	text-indent: 10%;*/
+	position:relative;
+	top:24%;
+}
+
+.columns .title-Mexico{
+	text-indent: 8%;
+	position:relative;
+	top:28%;
+}
+
+.columns .title-Venezuela{
+	text-indent: 21%;
+	position:relative;
+	top:4%;
+}
+
+.columns .title-Ecuador{
+	
+	position:relative;
+	top:40%;
+}
+
+.columns .title-Jamaica{
+	text-indent: 15%;
+	position:relative;
+	top:18%;
+}
+
+.columns .title-NewZealand{
+	text-indent: 20%;
+	position:relative;
+	top:10%;
+}
+
+
+nav {
+	font-size: 2em;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+    line-height:1.5;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	border-bottom: solid 2px #fedf13;
+}
+p.title {color:#fedf13;font-size: 1.2em;
+	font-family: "Playfair Display", serif;}
